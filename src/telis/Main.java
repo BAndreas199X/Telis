@@ -79,12 +79,11 @@ public class Main {
 						
 						System.out.printf("""
 							%nFuer Einheit %d wurden %s Exemplare der Auswahl hinzugefuegt. 
-								%nAktuelle Auswahl: """+unitAvailability+"%n%n", 
+								Aktuelle Auswahl: """+unitAvailability+"%n%n", 
 								currUnit, input);
 						currUnit++;
 					}
 				}
-			
 			
 				System.out.println("""
 					Erworben werden sollen Exemplare mit den folgenden 
